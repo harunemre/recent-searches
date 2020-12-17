@@ -1,0 +1,31 @@
+body {  
+  background-color: #F4F6FE;
+}
+
+.box { 
+  border-radius: 1rem;
+  width: 662px;
+  min-height: 465px;
+}
+
+.box:after{
+  content: "";
+  display: block;
+  padding-bottom: 5%;
+}
+
+.search-word-wrapper:hover {
+  background-color: #EBEAF3;
+}
+
+button.close {
+  display: none;
+}
+
+.search-word-wrapper:hover  div  button.close {
+  display: block;
+}
+
+.search-word {
+  font-size: 18px;
+}
